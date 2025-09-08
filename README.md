@@ -4,9 +4,7 @@ Documentation for JavaScript Trading Libraries, built with [Docusaurus](https://
 
 ## 🚀 Quick Start
 
-**🌐 Online Documentation:** [https://dev-zone-xs.github.io/jt-lab-docs-en/](https://dev-zone-xs.github.io/jt-lab-docs-en/)
-
-> **Second test of main branch protection** - checking updated GitHub rules
+**🌐 Online Documentation:** [https://jt-lab-com.github.io/docs/](https://jt-lab-com.github.io/docs/)
 
 ### Installing Dependencies
 ```bash
@@ -71,64 +69,6 @@ The site automatically deploys to GitHub Pages when pushing to the `main` branch
 - Add `width` and `height` attributes for size control
 - Images automatically enlarge on click
 
-## 🖼️ Image Preview System
-
-The documentation includes a **custom image preview system** that automatically intercepts clicks on image links and shows them in a full-screen modal window.
-
-### How It Works
-
-1. **Automatic Detection**: The script automatically finds all links with `target="_blank"` that lead to images
-2. **Supported Formats**: jpg, jpeg, png, gif, webp, svg, bmp
-3. **Modal Window**: When clicking on an image, a full-screen modal window opens
-4. **Controls**: Close by clicking on overlay, close button, or Escape key
-
-### Technical Implementation
-
-#### React Component (`src/components/ImagePreview.tsx`)
-```typescript
-interface ImagePreviewProps {
-  enableLogs?: boolean; // Enable debug logs
-}
-
-<ImagePreview enableLogs={false} />
-```
-
-#### Standalone JavaScript (`src/js/image-preview.js`)
-Pure JavaScript file that can be used independently of React.
-
-#### Layout Integration (`src/theme/Layout/index.tsx`)
-```typescript
-import ImagePreview from '../../components/ImagePreview';
-
-export default function LayoutWrapper(props: Props): ReactNode {
-  return (
-    <>
-      <Layout {...props} />
-      <ImagePreview enableLogs={false} />
-    </>
-  );
-}
-```
-
-### Functionality
-
-✅ **Full-screen View** - images display in modal window  
-✅ **Responsive Design** - works correctly on mobile devices  
-✅ **Animations** - smooth transitions when opening/closing  
-✅ **Captions** - display image alt text  
-✅ **Scroll Lock** - prevent page scrolling when modal is open  
-✅ **Multiple Close Methods** - click on overlay, × button, or Escape key  
-
-### Configuration
-
-To enable debug logs, set `enableLogs={true}`:
-
-```typescript
-<ImagePreview enableLogs={true} />
-```
-
-This will output detailed information about the script's operation to the console, which is useful for debugging.
-
 ## 📦 Dependencies
 
 - **@docusaurus/core** - Docusaurus core
@@ -140,9 +80,9 @@ This will output detailed information about the script's operation to the consol
 ## 🔗 Useful Links
 
 ### Documentation
-- **📖 [Online Documentation](https://dev-zone-xs.github.io/jt-lab-docs-en/)** - Complete JT-Lib and JT-Trader documentation
-- **📚 [JT-Lib Documentation](https://dev-zone-xs.github.io/jt-lab-docs-en/docs/jt-lib/)** - Core library documentation
-- **⚙️ [JT-Trader Documentation](https://dev-zone-xs.github.io/jt-lab-docs-en/docs/jt-trader/)** - Trading platform documentation
+- **📖 [Online Documentation](https://jt-lab-com.github.io/docs/)** - Complete JT-Lib and JT-Trader documentation
+- **📚 [JT-Lib Documentation](https://jt-lab-com.github.io/docs/docs/jt-lib/)** - Core library documentation
+- **⚙️ [JT-Trader Documentation](https://jt-lab-com.github.io/docs/docs/jt-trader/)** - Trading platform documentation
 
 ### JT-Lab Resources
 - **🌐 [Official JT-Lab Website](https://jt-lab.com)** - Platform homepage

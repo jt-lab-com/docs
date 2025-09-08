@@ -19,15 +19,15 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://dev-zone-xs.github.io',
+  url: 'https://jt-lab-com.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/jt-lab-docs-en/',
+  baseUrl: '/docs/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'dev-zone-xs', // Usually your GitHub org/user name.
-  projectName: 'jt-lab-docs-en', // Usually your repo name.
+  organizationName: 'jt-lab-com', // Usually your GitHub org/user name.
+  projectName: 'docs', // Usually your repo name.
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',

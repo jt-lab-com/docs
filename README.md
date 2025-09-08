@@ -4,16 +4,16 @@ Documentation for JavaScript Trading Libraries, built with [Docusaurus](https://
 
 ## 🚀 Quick Start
 
-**🌐 Online Documentation:** [https://jt-lab-docs.github.io/](https://jt-lab-docs.github.io/)
+**🌐 Online Documentation:** [https://jt-lab-com.github.io/docs/](https://jt-lab-com.github.io/docs/)
 
 ## 📦 Deployment
 
 This documentation is automatically deployed to GitHub Pages using GitHub Actions.
 
 ### 🚀 Automatic Deployment
-- Push to `second` branch triggers automatic deployment
+- Push to `main` branch triggers automatic deployment
 - GitHub Actions builds and deploys the site
-- Site is available at: `https://jt-lab-docs.github.io/`
+- Site is available at: `https://jt-lab-com.github.io/docs/`
 
 ### 🔧 Manual Deployment
 ```bash
@@ -28,7 +28,7 @@ npm ci
 npm run build
 git add .
 git commit -m "Deploy: Update documentation"
-git push origin second
+git push origin main
 ```
 
 ### 📋 Setup Instructions

@@ -1,48 +1,48 @@
 #!/bin/bash
 
-# Скрипт для быстрого деплоя документации
+# Quick deployment script for JT-Lab documentation
 
-echo "🚀 Начинаем деплой документации JT-Lab..."
+echo "🚀 Starting JT-Lab documentation deployment..."
 
-# Проверяем, что мы в правильной директории
+# Check if we're in the correct directory
 if [ ! -f "package.json" ]; then
-    echo "❌ Ошибка: package.json не найден. Убедитесь, что вы находитесь в корне проекта."
+    echo "❌ Error: package.json not found. Make sure you're in the project root."
     exit 1
 fi
 
-# Проверяем, что git настроен
+# Check if git is configured
 if [ ! -d ".git" ]; then
-    echo "❌ Ошибка: Это не git репозиторий."
+    echo "❌ Error: This is not a git repository."
     exit 1
 fi
 
-# Устанавливаем зависимости
-echo "📦 Устанавливаем зависимости..."
+# Install dependencies
+echo "📦 Installing dependencies..."
 npm ci
 
-# Собираем проект
-echo "🔨 Собираем проект..."
+# Build project
+echo "🔨 Building project..."
 npm run build
 
-# Проверяем, что сборка прошла успешно
+# Check if build was successful
 if [ ! -d "build" ]; then
-    echo "❌ Ошибка: Сборка не удалась. Папка build не создана."
+    echo "❌ Error: Build failed. Build folder not created."
     exit 1
 fi
 
-# Добавляем все изменения в git
-echo "📝 Добавляем изменения в git..."
+# Add all changes to git
+echo "📝 Adding changes to git..."
 git add .
 
-# Делаем commit
-echo "💾 Создаем commit..."
+# Create commit
+echo "💾 Creating commit..."
 git commit -m "Deploy: Update documentation $(date '+%Y-%m-%d %H:%M:%S')"
 
-# Пушим в second ветку
-echo "🚀 Отправляем изменения на GitHub..."
-git push origin second
+# Push to main branch
+echo "🚀 Pushing changes to GitHub..."
+git push origin main
 
-echo "✅ Деплой завершен! GitHub Actions автоматически развернет сайт."
-echo "🌐 Сайт будет доступен по адресу: https://jt-lab-docs.github.io/"
+echo "✅ Deployment completed! GitHub Actions will automatically deploy the site."
+echo "🌐 Site will be available at: https://jt-lab-com.github.io/docs/"
 echo ""
-echo "📊 Проверьте статус деплоя в разделе Actions на GitHub."
+echo "📊 Check deployment status in the Actions section on GitHub."

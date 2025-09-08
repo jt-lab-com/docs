@@ -1,49 +1,49 @@
 @echo off
-echo 🚀 Начинаем деплой документации JT-Lab...
+echo 🚀 Starting JT-Lab documentation deployment...
 
-REM Проверяем, что мы в правильной директории
+REM Check if we're in the correct directory
 if not exist "package.json" (
-    echo ❌ Ошибка: package.json не найден. Убедитесь, что вы находитесь в корне проекта.
+    echo ❌ Error: package.json not found. Make sure you're in the project root.
     pause
     exit /b 1
 )
 
-REM Проверяем, что git настроен
+REM Check if git is configured
 if not exist ".git" (
-    echo ❌ Ошибка: Это не git репозиторий.
+    echo ❌ Error: This is not a git repository.
     pause
     exit /b 1
 )
 
-REM Устанавливаем зависимости
-echo 📦 Устанавливаем зависимости...
+REM Install dependencies
+echo 📦 Installing dependencies...
 call npm ci
 
-REM Собираем проект
-echo 🔨 Собираем проект...
+REM Build project
+echo 🔨 Building project...
 call npm run build
 
-REM Проверяем, что сборка прошла успешно
+REM Check if build was successful
 if not exist "build" (
-    echo ❌ Ошибка: Сборка не удалась. Папка build не создана.
+    echo ❌ Error: Build failed. Build folder not created.
     pause
     exit /b 1
 )
 
-REM Добавляем все изменения в git
-echo 📝 Добавляем изменения в git...
+REM Add all changes to git
+echo 📝 Adding changes to git...
 git add .
 
-REM Делаем commit
-echo 💾 Создаем commit...
+REM Create commit
+echo 💾 Creating commit...
 git commit -m "Deploy: Update documentation %date% %time%"
 
-REM Пушим в second ветку
-echo 🚀 Отправляем изменения на GitHub...
-git push origin second
+REM Push to main branch
+echo 🚀 Pushing changes to GitHub...
+git push origin main
 
-echo ✅ Деплой завершен! GitHub Actions автоматически развернет сайт.
-echo 🌐 Сайт будет доступен по адресу: https://jt-lab-docs.github.io/
+echo ✅ Deployment completed! GitHub Actions will automatically deploy the site.
+echo 🌐 Site will be available at: https://jt-lab-com.github.io/docs/
 echo.
-echo 📊 Проверьте статус деплоя в разделе Actions на GitHub.
+echo 📊 Check deployment status in the Actions section on GitHub.
 pause

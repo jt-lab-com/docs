@@ -1,85 +1,85 @@
 # GitHub Actions Deployment Guide
 
-## 🚀 Автоматический деплой на GitHub Pages
+## 🚀 Automatic Deployment to GitHub Pages
 
-Этот репозиторий настроен для автоматического деплоя документации на GitHub Pages с помощью GitHub Actions.
+This repository is configured for automatic deployment of documentation to GitHub Pages using GitHub Actions.
 
-### 📋 Что нужно сделать:
+### 📋 What you need to do:
 
-#### 1. **Включить GitHub Pages**
-1. Перейдите в настройки репозитория: `Settings` → `Pages`
-2. В разделе `Source` выберите `GitHub Actions`
-3. Сохраните настройки
+#### 1. **Enable GitHub Pages**
+1. Go to repository settings: `Settings` → `Pages`
+2. In the `Source` section, select `GitHub Actions`
+3. Save settings
 
-#### 2. **Настроить права доступа**
-1. Перейдите в `Settings` → `Actions` → `General`
-2. В разделе `Workflow permissions` выберите `Read and write permissions`
-3. Поставьте галочку `Allow GitHub Actions to create and approve pull requests`
-4. Сохраните настройки
+#### 2. **Configure Access Permissions**
+1. Go to `Settings` → `Actions` → `General`
+2. In the `Workflow permissions` section, select `Read and write permissions`
+3. Check the box `Allow GitHub Actions to create and approve pull requests`
+4. Save settings
 
-#### 3. **Проверить настройки в docusaurus.config.ts**
+#### 3. **Check settings in docusaurus.config.ts**
 ```typescript
 const config: Config = {
-  url: 'https://jt-lab-docs.github.io',    // Кастомный домен
-  baseUrl: '/',                            // Корневой путь
-  organizationName: 'jt-lab-docs',         // Имя организации
-  projectName: 'jt-lab-docs.github.io',    // Имя репозитория
-  // ... остальные настройки
+  url: 'https://jt-lab-com.github.io',     // GitHub Pages URL
+  baseUrl: '/docs/',                       // Repository path
+  organizationName: 'jt-lab-com',          // Organization name
+  projectName: 'docs',                     // Repository name
+  // ... other settings
 };
 ```
 
-#### 4. **Запустить деплой**
-1. Сделайте commit и push в ветку `main`
-2. GitHub Actions автоматически запустится
-3. Проверьте статус в разделе `Actions`
+#### 4. **Start Deployment**
+1. Make a commit and push to the `main` branch
+2. GitHub Actions will automatically start
+3. Check status in the `Actions` section
 
-### 🔧 Структура workflow
+### 🔧 Workflow Structure
 
-Файл `.github/workflows/deploy.yml` содержит:
-- **Checkout** - получение кода
-- **Setup Node.js** - настройка Node.js 18
-- **Install dependencies** - установка зависимостей
-- **Build website** - сборка сайта
-- **Deploy to GitHub Pages** - деплой на GitHub Pages
+The `.github/workflows/deploy.yml` file contains:
+- **Checkout** - getting the code
+- **Setup Node.js** - setting up Node.js 18
+- **Install dependencies** - installing dependencies
+- **Build website** - building the site
+- **Deploy to GitHub Pages** - deploying to GitHub Pages
 
-### 📝 Команды для локальной разработки
+### 📝 Commands for Local Development
 
 ```bash
-# Установка зависимостей
+# Install dependencies
 npm install
 
-# Запуск в режиме разработки
+# Run in development mode
 npm start
 
-# Сборка для продакшена
+# Build for production
 npm run build
 
-# Локальный просмотр собранного сайта
+# Local preview of built site
 npm run serve
 ```
 
-### 🌐 Результат
+### 🌐 Result
 
-После успешного деплоя ваша документация будет доступна по адресу:
-`https://jt-lab-docs.github.io/`
+After successful deployment, your documentation will be available at:
+`https://jt-lab-com.github.io/docs/`
 
-### 🐛 Устранение проблем
+### 🐛 Troubleshooting
 
-#### Проблема: "Page build failed"
-- Проверьте логи в разделе `Actions`
-- Убедитесь, что все зависимости установлены
-- Проверьте синтаксис в файлах документации
+#### Problem: "Page build failed"
+- Check logs in the `Actions` section
+- Make sure all dependencies are installed
+- Check syntax in documentation files
 
-#### Проблема: "404 Not Found"
-- Убедитесь, что `baseUrl` в `docusaurus.config.ts` правильный
-- Проверьте, что GitHub Pages включен
-- Убедитесь, что workflow завершился успешно
+#### Problem: "404 Not Found"
+- Make sure `baseUrl` in `docusaurus.config.ts` is correct
+- Check that GitHub Pages is enabled
+- Make sure the workflow completed successfully
 
-#### Проблема: "Permission denied"
-- Проверьте настройки прав доступа в `Settings` → `Actions` → `General`
-- Убедитесь, что выбран `Read and write permissions`
+#### Problem: "Permission denied"
+- Check access permission settings in `Settings` → `Actions` → `General`
+- Make sure `Read and write permissions` is selected
 
-### 📚 Полезные ссылки
+### 📚 Useful Links
 
 - [GitHub Pages Documentation](https://docs.github.com/en/pages)
 - [Docusaurus Deployment](https://docusaurus.io/docs/deployment)

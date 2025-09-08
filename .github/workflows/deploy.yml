@@ -3,10 +3,10 @@ name: Deploy Docusaurus to GitHub Pages
 on:
   push:
     branches:
-      - main
+      - second
   pull_request:
     branches:
-      - main
+      - second
 
 jobs:
   build-and-deploy:
@@ -31,10 +31,10 @@ jobs:
         run: npm run build
 
       - name: Deploy to GitHub Pages
-        if: github.ref == 'refs/heads/main'
+        if: github.ref == 'refs/heads/second'
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
-          # Optional: Set custom domain
-          # cname: your-domain.com
+          # Custom domain
+          cname: jt-lab-docs.github.io

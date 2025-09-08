@@ -20,8 +20,10 @@
 #### 3. **Проверить настройки в docusaurus.config.ts**
 ```typescript
 const config: Config = {
-  url: 'https://YOUR_USERNAME.github.io',  // Замените на ваш GitHub username
-  baseUrl: '/jt-lab-docs-en/',             // Имя репозитория
+  url: 'https://jt-lab-docs.github.io',    // Кастомный домен
+  baseUrl: '/',                            // Корневой путь
+  organizationName: 'jt-lab-docs',         // Имя организации
+  projectName: 'jt-lab-docs.github.io',    // Имя репозитория
   // ... остальные настройки
 };
 ```
@@ -59,7 +61,7 @@ npm run serve
 ### 🌐 Результат
 
 После успешного деплоя ваша документация будет доступна по адресу:
-`https://YOUR_USERNAME.github.io/jt-lab-docs-en/`
+`https://jt-lab-docs.github.io/`
 
 ### 🐛 Устранение проблем
 

@@ -38,12 +38,12 @@ REM Делаем commit
 echo 💾 Создаем commit...
 git commit -m "Deploy: Update documentation %date% %time%"
 
-REM Пушим в main ветку
+REM Пушим в second ветку
 echo 🚀 Отправляем изменения на GitHub...
-git push origin main
+git push origin second
 
 echo ✅ Деплой завершен! GitHub Actions автоматически развернет сайт.
-echo 🌐 Сайт будет доступен по адресу: https://YOUR_USERNAME.github.io/jt-lab-docs-en/
+echo 🌐 Сайт будет доступен по адресу: https://jt-lab-docs.github.io/
 echo.
 echo 📊 Проверьте статус деплоя в разделе Actions на GitHub.
 pause

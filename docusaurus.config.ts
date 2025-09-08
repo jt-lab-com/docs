@@ -10,7 +10,7 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   // To match the URL structure on GitHub Pages
-  deploymentBranch: 'main',
+  deploymentBranch: 'second',
   trailingSlash: true,
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -19,15 +19,15 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://dev-zone-xs.github.io',
+  url: 'https://jt-lab-docs.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/jt-lab-docs-en/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'dev-zone-xs', // Usually your GitHub org/user name.
-  projectName: 'jt-lab-docs-en', // Usually your repo name.
+  organizationName: 'jt-lab-docs', // Usually your GitHub org/user name.
+  projectName: 'jt-lab-docs.github.io', // Usually your repo name.
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',

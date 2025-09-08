@@ -6,7 +6,33 @@ Documentation for JavaScript Trading Libraries, built with [Docusaurus](https://
 
 **🌐 Online Documentation:** [https://dev-zone-xs.github.io/jt-lab-docs-en/](https://dev-zone-xs.github.io/jt-lab-docs-en/)
 
-> **Second test of main branch protection** - checking updated GitHub rules
+## 📦 Deployment
+
+This documentation is automatically deployed to GitHub Pages using GitHub Actions.
+
+### 🚀 Automatic Deployment
+- Push to `main` branch triggers automatic deployment
+- GitHub Actions builds and deploys the site
+- Site is available at: `https://YOUR_USERNAME.github.io/jt-lab-docs-en/`
+
+### 🔧 Manual Deployment
+```bash
+# Quick deploy script (Linux/Mac)
+./deploy.sh
+
+# Quick deploy script (Windows)
+deploy.bat
+
+# Or manually:
+npm ci
+npm run build
+git add .
+git commit -m "Deploy: Update documentation"
+git push origin main
+```
+
+### 📋 Setup Instructions
+See [DEPLOYMENT.md](./DEPLOYMENT.md) for detailed setup instructions.
 
 ### Installing Dependencies
 ```bash

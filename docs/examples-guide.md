@@ -34,115 +34,70 @@ Examples of using the jt-lib library with descriptions of functionality and used
 
 **Used Classes:**
 - [BaseScript](jt-lib/trading-scripts.md) - base class for trading scripts
-- [OrdersBasket](jt-lib/exchange-orders-basket.md) - order management
-- [TriggersSystem](jt-lib/triggers-system.md) - automation system
+- [OrdersBasket](jt-lib/exchange-orders-basket.md) - order and position management
 - [StandardReportLayout](jt-lib/reporting-system.md) - reporting system
 
 **Functionality:**
-- Multi-currency grid trading
+- Creating grid of limit orders
 - Automatic position management
-- Risk management
-- Real-time monitoring
+- Multi-currency trading
+
+### Indicators Example
+
+**File:** [Indicators-Example.ts](https://github.com/jt-lab-com/jt-lib/blob/main/src/examples/Indicators-Example.ts)
+
+**Description:** Demonstration of working with technical indicators (SMA, ATR).
+
+**Used Classes:**
+- [BaseScript](jt-lib/trading-scripts.md) - base class for trading scripts
+- [SimpleMovingAverageIndicator](jt-lib/technical-indicators.md) - SMA indicator
+- [AverageTrueRange](jt-lib/technical-indicators.md) - ATR indicator
+- [CandlesBuffer](jt-lib/market-data-candles.md) - candles buffer
+- [StandardReportLayout](jt-lib/reporting-system.md) - reporting system
+
+**Functionality:**
+- Creating and initializing indicators
+- Real-time data display
+- Working with historical data
+
+### RSI Bot Example
+
+**File:** [RsiBot-Example.ts](https://github.com/jt-lab-com/jt-lib/blob/main/src/examples/RsiBot-Example.ts)
+
+**Description:** Trading strategy based on RSI indicator with automatic signals.
+
+**Used Classes:**
+- [BaseScript](jt-lib/trading-scripts.md) - base class for trading scripts
+- [OrdersBasket](jt-lib/exchange-orders-basket.md) - order and position management
+- [RelativeStrengthIndex](jt-lib/technical-indicators.md) - RSI indicator
+- [StandardReportLayout](jt-lib/reporting-system.md) - reporting system
+
+**Functionality:**
+- RSI signal analysis (buy when RSI < 30, sell when RSI > 70)
+- Automatic position management
+- Stop-loss and take-profit orders
 
 ### Trading API Example
 
 **File:** [Trading-Api-Example.ts](https://github.com/jt-lab-com/jt-lib/blob/main/src/examples/Trading-Api-Example.ts)
 
-**Description:** Interactive example demonstrating all trading API capabilities.
+**Description:** Trading API demonstration with callback functions and action buttons.
 
 **Used Classes:**
 - [BaseScript](jt-lib/trading-scripts.md) - base class for trading scripts
-- [OrdersBasket](jt-lib/exchange-orders-basket.md) - order management
+- [OrdersBasket](jt-lib/exchange-orders-basket.md) - order and position management
 - [StandardReportLayout](jt-lib/reporting-system.md) - reporting system
 
 **Functionality:**
-- Interactive API demonstration
-- Market data retrieval
-- Order creation and management
-- Account information display
+- Interactive buttons for trading operations
+- Market data and account information retrieval
+- Creating, modifying and canceling orders
+- Callback functions for action handling
 
-### DCA Strategy Example
+## 🔗 Official Resources
 
-**File:** [DCA-Strategy-Example.ts](https://github.com/jt-lab-com/jt-lib/blob/main/src/examples/DCA-Strategy-Example.ts)
-
-**Description:** Dollar Cost Averaging strategy with periodic purchases.
-
-**Used Classes:**
-- [BaseScript](jt-lib/trading-scripts.md) - base class for trading scripts
-- [OrdersBasket](jt-lib/exchange-orders-basket.md) - order management
-- [TriggersSystem](jt-lib/triggers-system.md) - automation system
-
-**Functionality:**
-- Periodic automatic purchases
-- Risk management
-- Position tracking
-- Performance monitoring
-
-## How to Use Examples
-
-### Running Examples in Runtime
-
-1. Open JT-Trader web interface
-2. Go to Runtime section
-3. Click "Create Runtime"
-4. Select the desired example from the strategy list
-5. Configure parameters
-6. Start the script
-
-### Running Examples in Tester
-
-1. Go to Tester section
-2. Click "Create New Scenario"
-3. Select the example strategy
-4. Set testing parameters
-5. Run backtest
-
-### Modifying Examples
-
-All examples can be modified to suit your needs:
-
-1. Copy the example code
-2. Modify parameters and logic
-3. Test in Tester mode
-4. Deploy in Runtime mode
-
-## Best Practices
-
-### Code Organization
-
-- Use meaningful variable names
-- Add comments to complex logic
-- Follow TypeScript best practices
-- Use proper error handling
-
-### Testing
-
-- Always test strategies in Tester mode first
-- Use small amounts for initial testing
-- Monitor performance metrics
-- Keep detailed logs
-
-### Risk Management
-
-- Set appropriate position sizes
-- Use stop-loss orders
-- Monitor drawdown
-- Diversify strategies
-
-## Next Steps
-
-After studying the examples:
-
-1. **[JT-LIB Documentation](/docs/jt-lib/introduction-architecture)** - Learn the library architecture
-2. **[Creating Strategies](/docs/jt-lib/trading-scripts)** - Start developing your own strategies
-3. **[Testing](/docs/jt-trader/tester-overview)** - Learn advanced testing techniques
-4. **[Deployment](/docs/jt-trader/runtime-overview)** - Deploy strategies in production
-
-## Support
-
-For questions about examples:
-
-- Check the [JT-LIB documentation](/docs/jt-lib/)
-- Review the [GitHub repository](https://github.com/jt-lab-com/jt-lib)
-- Join the community discussions
-- Contact support team
+- **🌐 [Official JT-Lab Website](https://jt-lab.com)** - Main platform page
+- **📦 [JT-Trader on GitHub](https://github.com/jt-lab-com/jt-trader)** - Trading platform source code
+- **📚 [JT-Lib on GitHub](https://github.com/jt-lab-com/jt-lib)** - Development library source code
+- **📖 [Complete Documentation](/docs/intro)** - Detailed guides for all components
+- **🚀 [Quick Start](/docs/quick-start)** - Get started in 5 minutes

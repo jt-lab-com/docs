@@ -107,5 +107,3 @@ jt-lib-source/
 │       └── interfaces/              # TypeScript interfaces
 ```
 
-
-//TODO After adding the remaining chapters, add quick start guide here

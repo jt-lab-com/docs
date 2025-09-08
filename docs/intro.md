@@ -183,3 +183,4 @@ JT-Lab's affiliate program allows participants to earn by attracting new users:
 - **📦 [JT-Trader on GitHub](https://github.com/jt-lab-com/jt-trader)** - Trading platform source code
 - **📚 [JT-Lib on GitHub](https://github.com/jt-lab-com/jt-lib)** - Development library source code
 - **📖 [Documentation](https://dev-zone-xs.github.io/jt-lab-docs/)** - Complete documentation for all components
+

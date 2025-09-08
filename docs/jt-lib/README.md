@@ -8,14 +8,14 @@ TypeScript library for creating trading robots on the JT-Trader platform. Provid
 
 ## Features
 
-- **Trading Operations** - buying, selling, placing orders
-- **Market Data** - getting prices, volumes, order book
-- **Event System** - real-time reaction to market changes
-- **Data Storage** - saving state and operation history
-- **Triggers** - automatic execution of actions based on conditions
+- **Trading operations** - buying, selling, placing orders
+- **Market data** - getting prices, volumes, order book
+- **Event system** - reacting to market changes in real time
+- **Data storage** - saving state and operation history
+- **Triggers** - automatic execution of actions by conditions
 - **Reporting** - detailed analytics of trading operations
-- **Technical Indicators** - built-in indicators for analysis
-- **Candle Management** - buffering and processing of candle data
+- **Technical indicators** - built-in indicators for analysis
+- **Candle management** - buffering and processing candle data
 
 ## Installation
 
@@ -28,7 +28,7 @@ npm install
 
 ## Quick Start
 
-### Your First Trading Script - DCA Strategy
+### Your first trading script - DCA strategy
 
 ```typescript
 class Script extends BaseScript {
@@ -43,7 +43,7 @@ class Script extends BaseScript {
   intervalHours = getArgNumber('intervalHours', 168); // 168 hours = 1 week
 
   async onInit() {
-    // Create trading basket
+    // Create basket for trading
     this.dcaBasket = new OrdersBasket({
       symbol: this.symbols[0],
     });
@@ -72,7 +72,7 @@ class Script extends BaseScript {
 
 ## Main Components
 
-### BaseScript - Base Class for Trading Strategies
+### BaseScript - Base class for trading strategies
 
 ```typescript
 class Script extends BaseScript {
@@ -81,7 +81,7 @@ class Script extends BaseScript {
   }
 
   async onTick() {
-    // Handle each tick
+    // Process each tick
   }
 
   async onOrderChange(order: Order) {
@@ -89,15 +89,15 @@ class Script extends BaseScript {
   }
 
   async onStop() {
-    // Clean up resources when stopping
+    // Clean up resources on stop
   }
 }
 ```
 
-### OrdersBasket - Trading Operations Management
+### OrdersBasket - Trading operations management
 
 ```typescript
-// Create trading basket
+// Create basket for trading
 const basket = new OrdersBasket({
   symbol: 'BTC/USDT',
   connectionName: 'Binance',
@@ -190,7 +190,7 @@ jt-lib-source/
 │       │   ├── storage.ts          # Data storage
 │       │   └── log.ts              # Logging system
 │       ├── events/                  # Event system
-│       ├── exchange/                # Exchange operations
+│       ├── exchange/                # Exchange interaction
 │       ├── candles/                 # Candle management
 │       ├── indicators/              # Technical indicators
 │       ├── report/                  # Reporting
@@ -221,5 +221,5 @@ For help and support:
 
 JT-LIB is available under dual license:
 
-- **AGPLv3** - free license for personal, educational, and open source use
-- **Commercial License** - for commercial use and SaaS solutions
+- **AGPLv3** - free license for personal, educational and open source use
+- **Commercial license** - for commercial use and SaaS solutions

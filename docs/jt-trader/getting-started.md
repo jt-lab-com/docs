@@ -1,10 +1,10 @@
 ---
 id: getting-started
-title: Getting Started
-sidebar_label: Getting Started
+title: Introduction
+sidebar_label: Introduction
 ---
 
-# Getting Started
+# Introduction
 
 <div className="thumbnail-container">
   <div className="thumbnail-item">
@@ -21,31 +21,31 @@ sidebar_label: Getting Started
 
   <div className="thumbnail-item">
     <a href="/jt-lab-docs-en/images/tester-intro.png" target="_blank">
-      <img src="/jt-lab-docs-en/images/thumbnails/tester-intro-thumb.png" alt="Tester Overview" className="thumbnail-image" />
+      <img src="/jt-lab-docs-en/images/thumbnails/tester-intro-thumb.png" alt="Create Runtime" className="thumbnail-image" />
     </a>    
   </div>
 
    <div className="thumbnail-item">
     <a href="/jt-lab-docs-en/images/create-scenarion-tester-intro.png" target="_blank">
-      <img src="/jt-lab-docs-en/images/thumbnails/create-scenarion-tester-intro-thumb.png" alt="Create Tester Scenario" className="thumbnail-image" />
+      <img src="/jt-lab-docs-en/images/thumbnails/create-scenarion-tester-intro-thumb.png" alt="Create Runtime" className="thumbnail-image" />
     </a>    
   </div>
 
   <!-- <div className="thumbnail-item">
-    <a href="/jt-lab-docs/images/tester-full-report-intro.png" target="_blank">
-      <img src="/jt-lab-docs/images/thumbnails/tester-full-report-intro-thumb.png" alt="Create Runtime" className="thumbnail-image" />
+    <a href="/jt-lab-docs-en/images/tester-full-report-intro.png" target="_blank">
+      <img src="/jt-lab-docs-en/images/thumbnails/tester-full-report-intro-thumb.png" alt="Create Runtime" className="thumbnail-image" />
     </a>    
   </div> -->
 
   <!-- <div className="thumbnail-item">
-    <a href="/jt-lab-docs/images/strategy-files-intro.png" target="_blank">
-      <img src="/jt-lab-docs/images/thumbnails/strategy-files-intro-thumb.png" alt="Create Runtime" className="thumbnail-image" />
+    <a href="/jt-lab-docs-en/images/strategy-files-intro.png" target="_blank">
+      <img src="/jt-lab-docs-en/images/thumbnails/strategy-files-intro-thumb.png" alt="Create Runtime" className="thumbnail-image" />
     </a>    
   </div> -->
 <!-- 
   <div className="thumbnail-item">
-    <a href="/jt-lab-docs/images/config-intro.png" target="_blank">
-      <img src="/jt-lab-docs/images/thumbnails/config-intro-thumb.png" alt="Create Runtime" className="thumbnail-image" />
+    <a href="/jt-lab-docs-en/images/config-intro.png" target="_blank">
+      <img src="/jt-lab-docs-en/images/thumbnails/config-intro-thumb.png" alt="Create Runtime" className="thumbnail-image" />
     </a>    
   </div> -->
   
@@ -143,9 +143,9 @@ After installing JT-Trader, you will be able to:
 
 To get started with JT-Trader, it's recommended to study the following documentation sections:
 
-- **[Runtime Overview](runtime-overview)** - Runtime tab overview
-- **[Tester Overview](tester-overview)** - Tester tab overview
-- **[Strategy Files Overview](strategy-files-overview)** - Strategy Files tab overview
-- **[Configuration](configuration)** - system and connection configuration
+- **[Runtime Overview](/docs/jt-trader/runtime-overview)** - Runtime tab overview
+- **[Tester Overview](/docs/jt-trader/tester-overview)** - Tester tab overview
+- **[Strategy Files Overview](/docs/jt-trader/strategy-files-overview)** - Strategy Files tab overview
+- **[Configuration](/docs/jt-trader/configuration)** - system and connection configuration
 
 JT-Trader opens wide possibilities for algorithmic trading, combining professional development tools with a convenient management interface. Regardless of your trading experience level, the platform will provide all necessary tools for creating and launching effective trading strategies.

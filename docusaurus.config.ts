@@ -58,26 +58,6 @@ const config: Config = {
           //   require('remark-gfm'),
           // ],
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/dev-zone-xs/jt-lab-docs/tree/main/git-docs-en/blog/',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-          // Disable external plugins for blog
-          // remarkPlugins: [
-          //   require('remark-images'),
-          //   require('remark-gfm'),
-          // ],
-        },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -101,7 +81,6 @@ const config: Config = {
           position: 'left',
           label: 'Documentation',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/dev-zone-xs/jt-lab-docs',
           label: 'GitHub',
@@ -157,10 +136,6 @@ const config: Config = {
               label: 'Issues',
               href: 'https://github.com/dev-zone-xs/jt-lab-docs/issues',
             },
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
           ],
         },
       ],
@@ -174,3 +149,4 @@ const config: Config = {
 };
 
 export default config;
+

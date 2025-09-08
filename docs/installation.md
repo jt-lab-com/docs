@@ -296,3 +296,4 @@ After successful installation:
 ---
 
 **Congratulations! You have successfully installed JT-LAB. Now you can start creating trading strategies!** 🚀
+

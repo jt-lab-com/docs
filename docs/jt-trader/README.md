@@ -1,9 +1,3 @@
----
-id: jt-trader-readme
-title: JT-Trader
-sidebar_label: JT-Trader Overview
----
-
 # JT-Trader
 
 [![License](https://img.shields.io/badge/license-AGPLv3-blue.svg)](LICENSE)
@@ -104,6 +98,93 @@ Clone the repository along with the [jt-lib](https://github.com/jt-lab-com/jt-li
 
 ```bash
 git clone --recurse-submodules https://github.com/jt-lab-com/jt-trader.git
+```
+
+#### Installing Dependencies
+
+Navigate to the project folder and install dependencies:
+
+```bash
+cd jt-trader && yarn
+```
+
+#### Environment Setup
+
+Create a `.env` file in the project root directory, copying the contents of `.env.example`, and specify values for the following environment variables:
+
+```env
+# Main settings
+PORT=8080
+SITE_API_HOST=https://jt-lab.com
+STANDALONE_APP=1
+
+# Trading engine mode: both, realtime, tester
+ENGINE_MODE="both"
+
+# File and directory paths
+DATABASE_URL="file:/path/to/your/project/storage.db"
+ROLLUP_TS_CONFIG=tsconfig.bundler.json
+STRATEGY_FILES_PATH=/path/to/your/project/strategy-source/src
+MARKETS_FILE_PATH=markets.json
+ARTIFACTS_DIR_PATH=/path/to/your/project/artifacts
+HISTORY_BARS_PATH=downloaded-history-bars
+LOGS_DIR_PATH=artifacts
+
+# Redis (optional - system can work with file cache)
+# REDIS_URL=redis://localhost:6379
+```
+
+#### Variable Descriptions
+
+| Variable | Description | Example |
+|----------|-------------|---------|
+| `PORT` | Port on which the application will run | `8080` |
+| `SITE_API_HOST` | Base API URL of the site | `https://jt-lab.com` |
+| `STANDALONE_APP` | Local operation mode (1 = enabled) | `1` |
+| `ENGINE_MODE` | Trading engine mode | `"both"`, `"realtime"`, `"tester"` |
+| `DATABASE_URL` | **Absolute path** to SQLite database file | `"file:/path/to/your/project/storage.db"` |
+| `STRATEGY_FILES_PATH` | **Absolute path** to strategy source code | `/path/to/your/project/strategy-source/src` |
+| `ROLLUP_TS_CONFIG` | Path to TypeScript configuration | `tsconfig.bundler.json` |
+| `MARKETS_FILE_PATH` | Path to markets configuration file | `markets.json` |
+| `ARTIFACTS_DIR_PATH` | Path to strategy reports directory | `/path/to/your/project/artifacts` |
+| `HISTORY_BARS_PATH` | Path to historical data directory | `downloaded-history-bars` |
+| `LOGS_DIR_PATH` | Path to logs directory | `artifacts` |
+| `REDIS_URL` | Redis connection URL (optional) | `redis://localhost:6379` |
+
+#### ⚠️ Important: Path Configuration
+
+**Replace `/path/to/your/project/` with real paths to your project:**
+
+- `DATABASE_URL` - specify full path to database file
+- `STRATEGY_FILES_PATH` - specify path to strategy source code folder  
+- `ARTIFACTS_DIR_PATH` - specify path to reports and artifacts folder
+
+**Example for Windows:**
+```env
+DATABASE_URL="file:C:/Users/YourName/jt-trader/storage.db"
+STRATEGY_FILES_PATH=C:/Users/YourName/jt-trader/strategy-source/src
+ARTIFACTS_DIR_PATH=C:/Users/YourName/jt-trader/artifacts
+```
+
+**Example for Linux/macOS:**
+```env
+DATABASE_URL="file:/home/username/jt-trader/storage.db"
+STRATEGY_FILES_PATH=/home/username/jt-trader/strategy-source/src
+ARTIFACTS_DIR_PATH=/home/username/jt-trader/artifacts
+```
+
+#### Build and Run
+
+To build the project, run:
+
+```bash
+yarn build:prod
+```
+
+To run the application in production mode:
+
+```bash
+yarn start:prod
 ```
 
 ## Quick Start

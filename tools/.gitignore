@@ -1,0 +1,10 @@
+# Script execution logs
+logs/
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Execution statistics
+last-run-stats.json

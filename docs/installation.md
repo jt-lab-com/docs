@@ -126,6 +126,7 @@ bash setup.sh
 ---
 
 ## 3. Direct Installation from GitHub
+📦 **GitHub repository:** [jt-lab-com/jt-trader](https://github.com/jt-lab-com/jt-trader)
 
 For developers and advanced users who want full control over the installation process. This method is necessary if you plan to develop your own trading robots or modify the source code.
 

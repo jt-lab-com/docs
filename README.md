@@ -15,7 +15,7 @@ yarn install
 ```bash
 yarn start
 ```
-The site will be available at: http://localhost:3000
+The Site Will be available at: http://localhost:3000
 
 ### Production Build
 ```bash

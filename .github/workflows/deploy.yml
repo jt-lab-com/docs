@@ -3,41 +3,33 @@ name: Deploy Docusaurus to GitHub Pages
 on:
   push:
     branches:
-      - main  # workflow запускается при пуше в main
+      - main
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-
+    permissions:
+      contents: write  
     steps:
-      # 1. Клонируем репозиторий полностью
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0  # нужно для корректного пуша в gh-pages
 
-      # 2. Устанавливаем Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '18'
           cache: 'npm'
 
-      # 3. Устанавливаем зависимости
       - name: Install dependencies
         run: npm ci
 
-      # 4. Сборка сайта
       - name: Build website
         run: npm run build
 
-      # 5. Деплой на gh-pages
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }} # токен GitHub Actions
-          publish_dir: ./build                     # папка со статикой сайта
-          publish_branch: gh-pages                 # ветка для сайта
-          user_name: 'GitHub Actions'
-          user_email: 'actions@github.com'
-          keep_files: false                        # очищаем gh-pages перед деплоем
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
+          publish_branch: gh-pages
+

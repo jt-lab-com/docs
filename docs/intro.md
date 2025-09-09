@@ -6,7 +6,7 @@ sidebar_label: Introduction
 
 # Welcome to JT-LAB
 
-**JT-LAB** is an ecosystem created to expand the capabilities of automated trading. It unites traders and developers in a dynamic environment where they can create, test, and monetize trading robots. This comprehensive platform supports the entire lifecycle of algorithmic trading development and deployment, making it a center of innovation and collaboration in cryptocurrency trading. By offering tools suitable for both beginners and experienced traders, JT-Lab facilitates access to advanced trading strategies and fosters the development of a thriving community of technology enthusiasts and financial experts.
+**JT-LAB** is an ecosystem created to expand the capabilities of automated trading. It unites traders and developers in a dynamic environment where they can create, test, and monetize trading robots. This comprehensive platform supports the entire lifecycle of algorithmic trading development and deployment, making it a center of innovation and collaboration in cryptocurrency trading. By offering tools suitable for both beginners and experienced traders, JT-LAB facilitates access to advanced trading strategies and fosters the development of a thriving community of technology enthusiasts and financial experts.
 
 ## What is JT-LAB?
 

@@ -107,14 +107,14 @@ Download and install the latest version of [Docker](https://www.docker.com/) for
 #### Windows
 
 1. Create a working directory for the application
-2. Download the `setup-windows.bat` file and place it in the working directory
+2. Download the [setup-windows.bat](https://github.com/jt-lab-com/jt-trader/blob/main/docker/setup-windows.bat) file and place it in the working directory
 3. Run `setup-windows.bat`
 4. After installation is complete, open your browser and go to: `http://localhost:8080/`
 
 #### Linux / macOS
 
 1. Create a working directory for the application
-2. Download the `setup.sh` file and place it in the working directory
+2. Download the [setup.sh](https://github.com/jt-lab-com/jt-trader/blob/main/docker/setup.sh) file and place it in the working directory
 3. Open terminal, navigate to the working directory and run:
 
 ```bash

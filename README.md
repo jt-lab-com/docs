@@ -62,7 +62,7 @@ The site automatically deploys to GitHub Pages when pushing to the `main` branch
 ### Build Errors
 - Check all links in documentation
 - Make sure all files exist
-- Check Markdown syntax
+- Check Markdown Syntax
 
 ### Image Issues
 - Use relative paths: `./images/example.png`

@@ -87,7 +87,7 @@ The system has even more ready-made strategies: `RsiBot.ts` (RSI strategy with o
 
 ### For Traders
 
-[Exchange Setup](/docs/jt-trader/configuration) (connecting real exchanges), [usage](/docs/jt-trader/usage) (platform interface) and [Runtime](/docs/jt-trader/runtime) (launching trading robots).
+[Exchange Setup](/docs/jt-trader/configuration) (connecting real exchanges), [usage](/docs/jt-trader/getting-started) (platform interface) and [Runtime](/docs/jt-trader/runtime-overview) (launching trading robots).
 
 ## Useful Tips
 

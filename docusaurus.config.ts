@@ -40,8 +40,6 @@ const config: Config = {
     locales: ['en'],
   },
 
-
-
   presets: [
     [
       'classic',
@@ -51,7 +49,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/dev-zone-xs/jt-lab-docs/tree/main/git-docs-en/docs/',
+            'https://github.com/jt-lab-com/docs/tree/main/docs/',
           // Disable external plugins - use built-in capabilities
           // remarkPlugins: [
           //   require('remark-images'),
@@ -95,16 +93,21 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
+            label: 'System Installation',
+              to: '/docs/installation/',
+            },
+            
+            {
               label: 'JT-Lib',
-              to: '/docs/jt-lib/getting-started',
+              to: '/jt-lib/introduction-architecture',
             },
             {
               label: 'JT-Trader',
-              to: '/docs/jt-trader/jt-trader-getting-started',
+              to: '/jt-trader/getting-started',
             },
             {
               label: 'Triggers',
-              to: '/docs/jt-lib/triggers/order-trigger',
+              to: '/jt-lib/triggers-system',
             },
           ],
         },
@@ -130,11 +133,11 @@ const config: Config = {
           items: [
             {
               label: 'GitHub Docs',
-              href: 'https://github.com/dev-zone-xs/jt-lab-docs',
+              href: 'https://github.com/jt-lab-com/docs',
             },
             {
               label: 'Issues',
-              href: 'https://github.com/dev-zone-xs/jt-lab-docs/issues',
+              href: 'https://github.com/jt-lab-com/docs/issues',
             },
           ],
         },
@@ -149,4 +152,3 @@ const config: Config = {
 };
 
 export default config;
-

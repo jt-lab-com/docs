@@ -74,8 +74,8 @@ Most often, one of the required parameters is "symbols" or "coins", which repres
 * **Script**: Script file name.
 * **Script Type:** Script type.
   * **Local:** Script compiled on the server from source code.
-  * **Remote (bundle):** Script from database. See Developer -> [Bundles](../../jt-lab-dashboard/developer-zone#bundles).
-  * **Remote (app):** Script purchased from the store. See User -> [Bots](../../jt-lab-dashboard/user-zone#bots).
+  * **Remote (bundle):** Script from database.
+  * **Remote (app):** Script purchased from the store.
 * **Exchange:** Exchange where the script is running.
 * **Updated:** Date of last script update.
 * **Status:** Current script status.

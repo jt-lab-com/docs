@@ -29,16 +29,16 @@ onInit():
     ├─ Register 'dcaPurchase' trigger
     └─ Setup periodic purchases
     ↓
-┌─────────────────────────────────────────┐
-│         Main Operation Loop            │
-│                                         │
-│  Every intervalHours hours:            │
-│  ├─ 'dcaPurchase' trigger fires         │
-│  ├─ buyDCA() is called                 │
+┌────────────────────────────────────────────┐
+│         Main Operation Loop                │
+│                                            │
+│  Every intervalHours hours:                │
+│  ├─ 'dcaPurchase' trigger fires            │
+│  ├─ buyDCA() is called                     │
 │  ├─ Contract calculation: sizeUsd → amount │
-│  ├─ Purchase execution: buyMarket()     │
-│  └─ Result logging                     │
-└─────────────────────────────────────────┘
+│  ├─ Purchase execution: buyMarket()        │
+│  └─ Result logging                         │
+└────────────────────────────────────────────┘
     ↓
 onStop() - cancel all orders
     ↓

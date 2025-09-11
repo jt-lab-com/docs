@@ -200,14 +200,14 @@ jt-lib-source/
 
 ## Documentation
 
-- [Introduction and Architecture](introduction-architecture) - Library overview
-- [Core Fundamentals](core-fundamentals) - Basic components
-- [Trading Scripts](trading-scripts) - Creating strategies
-- [Technical Indicators](technical-indicators) - Market analysis
-- [Event System](events-system) - EventEmitter and triggers
-- [Order Management](exchange-orders-basket) - OrdersBasket
-- [Reporting](reporting-system) - Creating reports
-- [Error Handling](error-handling) - Error management
+- [Introduction and Architecture](/jt-lib/introduction-architecture) - Library overview
+- [Core Fundamentals](/jt-lib/core-fundamentals) - Basic components
+- [Trading Scripts](/jt-lib/trading-scripts) - Creating strategies
+- [Technical Indicators](/jt-lib/technical-indicators) - Market analysis
+- [Event System](/jt-lib/events-system) - EventEmitter and triggers
+- [Order Management](/jt-lib/exchange-orders-basket) - OrdersBasket
+- [Reporting](/jt-lib/reporting-system) - Creating reports
+- [Error Handling](/jt-lib/error-handling) - Error management
 
 ## Support
 

@@ -113,17 +113,17 @@ JT-Lab's affiliate program allows participants to earn by attracting new users:
 
 ### For Trading Strategy Developers:
 
-1. **[JT-LAB Installation](/docs/installation)** - Install the entire system
-2. **[JT-LIB Introduction](/docs/jt-lib/introduction-architecture)** - Study the library architecture
-3. **[Development Fundamentals](/docs/jt-lib/core-fundamentals)** - Understand basic components
-4. **[Creating Strategies](/docs/jt-lib/trading-scripts)** - Start creating trading robots
+1. **[JT-LAB Installation](/installation)** - Install the entire system
+2. **[JT-LIB Introduction](/jt-lib/introduction-architecture)** - Study the library architecture
+3. **[Development Fundamentals](/jt-lib/core-fundamentals)** - Understand basic components
+4. **[Creating Strategies](/jt-lib/trading-scripts)** - Start creating trading robots
 
 ### For Traders:
 
-1. **[JT-LAB Installation](/docs/installation)** - Install the entire system
-2. **[Configuration](/docs/jt-trader/configuration)** - Set up exchange connections
-3. **[Usage](/docs/jt-trader/usage)** - Learn the platform interface
-4. **[Testing](/docs/jt-trader/tester)** - Learn to test strategies
+1. **[JT-LAB Installation](/installation)** - Install the entire system
+2. **[Configuration](/jt-trader/configuration)** - Set up exchange connections
+3. **[Getting Started](/jt-trader/getting-started)** - Learn the platform interface
+4. **[Tester Overview](/jt-trader/tester-overview)** - Learn to test strategies
 
 ## Key Features
 
@@ -175,7 +175,7 @@ JT-Lab's affiliate program allows participants to earn by attracting new users:
 
 **JT-Lab is a comprehensive automated trading platform that meets the needs of both beginners and professionals in algorithmic trading. Join JT-Lab to unlock the full potential of automated trading solutions, create and improve strategies, and interact with a community of like-minded individuals.**
 
-**Start with [installing JT-Trader](/docs/installation) or studying [JT-LIB architecture](/docs/jt-lib/introduction-architecture) depending on your goals.**
+**Start with [installing JT-Trader](/installation) or studying [JT-LIB architecture](/jt-lib/introduction-architecture) depending on your goals.**
 
 ## 🔗 Official Resources
 

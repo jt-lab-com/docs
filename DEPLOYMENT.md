@@ -20,8 +20,8 @@ This repository is configured for automatic deployment of documentation to GitHu
 #### 3. **Check settings in docusaurus.config.ts**
 ```typescript
 const config: Config = {
-  url: 'https://jt-lab-com.github.io',     // GitHub Pages URL
-  baseUrl: '/docs/',                       // Repository path
+  url: 'https://docs.jt-lab.com',          // Custom domain URL
+  baseUrl: '/',                            // Root path
   organizationName: 'jt-lab-com',          // Organization name
   projectName: 'docs',                     // Repository name
   // ... other settings
@@ -61,7 +61,7 @@ npm run serve
 ### 🌐 Result
 
 After successful deployment, your documentation will be available at:
-`https://jt-lab-com.github.io/docs/`
+`https://docs.jt-lab.com/`
 
 ### 🐛 Troubleshooting
 
@@ -71,9 +71,10 @@ After successful deployment, your documentation will be available at:
 - Check syntax in documentation files
 
 #### Problem: "404 Not Found"
-- Make sure `baseUrl` in `docusaurus.config.ts` is correct
-- Check that GitHub Pages is enabled
+- Make sure `url` and `baseUrl` in `docusaurus.config.ts` are correct
+- Check that GitHub Pages is enabled and custom domain is configured
 - Make sure the workflow completed successfully
+- Verify DNS settings for custom domain
 
 #### Problem: "Permission denied"
 - Check access permission settings in `Settings` → `Actions` → `General`

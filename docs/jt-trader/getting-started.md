@@ -8,26 +8,26 @@ sidebar_label: Introduction
 
 <div className="thumbnail-container">
   <div className="thumbnail-item">
-    <a href="/docs/images/runtime-intro.png" target="_blank">
-      <img src="/docs/images/thumbnails/runtime-intro-thumb.png" alt="Runtime Overview" className="thumbnail-image" />
+    <a href="/images/runtime-intro.png" target="_blank">
+      ![Runtime Overview](/images/thumbnails/runtime-intro-thumb.png)
     </a>    
   </div>
 
   <div className="thumbnail-item">
-    <a href="/docs/images/create-runtime-intro.png" target="_blank">
-      <img src="/docs/images/thumbnails/create-runtime-intro-thumb.png" alt="Create Runtime" className="thumbnail-image" />
+    <a href="/images/create-runtime-intro.png" target="_blank">
+      ![Create Runtime](/images/thumbnails/create-runtime-intro-thumb.png)
     </a>    
   </div>
 
   <div className="thumbnail-item">
-    <a href="/docs/images/tester-intro.png" target="_blank">
-      <img src="/docs/images/thumbnails/tester-intro-thumb.png" alt="Tester Overview" className="thumbnail-image" />
+    <a href="/images/tester-intro.png" target="_blank">
+      ![Tester Overview](/images/thumbnails/tester-intro-thumb.png)
     </a>    
   </div>
 
    <div className="thumbnail-item">
-    <a href="/docs/images/create-scenarion-tester-intro.png" target="_blank">
-      <img src="/docs/images/thumbnails/create-scenarion-tester-intro-thumb.png" alt="Create Scenario Tester" className="thumbnail-image" />
+    <a href="/images/create-scenarion-tester-intro.png" target="_blank">
+      ![Create Scenario Tester](/images/thumbnails/create-scenarion-tester-intro-thumb.png)
     </a>    
   </div>
 
@@ -126,9 +126,9 @@ After installing JT-Trader, you will be able to:
 
 To get started with JT-Trader, it's recommended to study the following documentation sections:
 
-- **[Runtime Overview](/docs/jt-trader/runtime-overview)** - Runtime tab overview
-- **[Tester Overview](/docs/jt-trader/tester-overview)** - Tester tab overview
-- **[Strategy Files Overview](/docs/jt-trader/strategy-files-overview)** - Strategy Files tab overview
-- **[Configuration](/docs/jt-trader/configuration)** - system and connection configuration
+- **[Runtime Overview](/jt-trader/runtime-overview)** - Runtime tab overview
+- **[Tester Overview](/jt-trader/tester-overview)** - Tester tab overview
+- **[Strategy Files Overview](/jt-trader/strategy-files-overview)** - Strategy Files tab overview
+- **[Configuration](/jt-trader/configuration)** - system and connection configuration
 
 JT-Trader opens wide possibilities for algorithmic trading, combining professional development tools with a convenient management interface. Regardless of your trading experience level, the platform will provide all necessary tools for creating and launching effective trading strategies.

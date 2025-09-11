@@ -19,7 +19,7 @@ In the **JT-Trader** system, you'll try:
 
 ## Installation 
 
-If you haven't installed JT-LAB yet, follow the instructions in [JT-Trader Installation](/installation).
+If you haven't installed JT-LAB yet, follow the instructions in [JT-Trader Installation](/docs/installation).
 
 ## Runtime - Trading on Mock Exchange
 
@@ -83,11 +83,11 @@ The system has even more ready-made strategies: `RsiBot.ts` (RSI strategy with o
 
 ### For Developers
 
-[Study JT-LIB](/jt-lib/introduction-architecture) (library architecture), [development basics](/jt-lib/core-fundamentals) (basic components) and [creating strategies](/jt-lib/trading-scripts) (advanced techniques).
+[Study JT-LIB](/docs/jt-lib/introduction-architecture) (library architecture), [development basics](/docs/jt-lib/core-fundamentals) (basic components) and [creating strategies](/docs/jt-lib/trading-scripts) (advanced techniques).
 
 ### For Traders
 
-[Exchange Setup](/jt-trader/configuration) (connecting real exchanges), [usage](/jt-trader/getting-started) (platform interface) and [Runtime](/jt-trader/runtime-overview) (launching trading robots).
+[Exchange Setup](/docs/jt-trader/configuration) (connecting real exchanges), [usage](/docs/jt-trader/getting-started) (platform interface) and [Runtime](/docs/jt-trader/runtime-overview) (launching trading robots).
 
 ## Useful Tips
 
@@ -114,5 +114,5 @@ Now you can experiment with parameters, create new strategies and explore the pl
 - **🌐 [JT-Lab Official Website](https://jt-lab.com)** - Platform main page
 - **📦 [JT-Trader on GitHub](https://github.com/jt-lab-com/jt-trader)** - Trading platform source code
 - **📚 [JT-Lib on GitHub](https://github.com/jt-lab-com/jt-lib)** - Development library source code
-- **📖 [Full Documentation](/intro)** - Detailed guides for all components
-- **💡 [Code Examples](/examples-guide)** - Ready-made trading strategy examples
+- **📖 [Full Documentation](/docs/intro)** - Detailed guides for all components
+- **💡 [Code Examples](/docs/examples-guide)** - Ready-made trading strategy examples

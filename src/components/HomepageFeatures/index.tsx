@@ -21,7 +21,7 @@ const FeatureList: FeatureItem[] = [
         order management, market data handling, and event system.
       </>
     ),
-    link: '/jt-lib/core-fundamentals',
+    link: '/docs/jt-lib/core-fundamentals',
   },
   {
     title: 'JT-Trader - Trading Platform',
@@ -32,7 +32,7 @@ const FeatureList: FeatureItem[] = [
         runtime environment, and convenient interface for development and testing.
       </>
     ),
-    link: '/jt-trader/getting-started',
+    link: '/docs/jt-trader/010-getting-started',
   },
   {
     title: 'Technical Indicators',
@@ -43,7 +43,7 @@ const FeatureList: FeatureItem[] = [
         Easy integration with candle buffers and automatic updates.
       </>
     ),
-    link: '/jt-lib/technical-indicators',
+    link: '/docs/jt-lib/technical-indicators',
   },
   {
     title: 'Order Management',
@@ -54,7 +54,7 @@ const FeatureList: FeatureItem[] = [
         various order types, stop-losses, and take-profits.
       </>
     ),
-    link: '/jt-lib/exchange-orders-basket',
+    link: '/docs/jt-lib/exchange-orders-basket',
   },
   {
     title: 'Market Data',
@@ -65,7 +65,7 @@ const FeatureList: FeatureItem[] = [
         Candle buffering with automatic updates and caching.
       </>
     ),
-    link: '/jt-lib/market-data-candles',
+    link: '/docs/jt-lib/market-data-candles',
   },
   {
     title: 'Event System',
@@ -76,7 +76,7 @@ const FeatureList: FeatureItem[] = [
         Subscribe to ticks, price changes, and other trading events.
       </>
     ),
-    link: '/jt-lib/events-system',
+    link: '/docs/jt-lib/events-system',
   },
 ];
 

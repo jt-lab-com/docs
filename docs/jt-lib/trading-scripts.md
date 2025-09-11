@@ -648,6 +648,6 @@ async onEvent(event: string, data: any) {
 
 ## Next Steps
 
-- **[Event System](/jt-lib/events-system)** - In-depth study of EventEmitter
-- **[Core Fundamentals](/jt-lib/core-fundamentals)** - Basic system components
-- **[Introduction and Architecture](/jt-lib/introduction-architecture)** - Library overview
+- **[Event System](/docs/jt-lib/events-system)** - In-depth study of EventEmitter
+- **[Core Fundamentals](/docs/jt-lib/core-fundamentals)** - Basic system components
+- **[Introduction and Architecture](/docs/jt-lib/introduction-architecture)** - Library overview

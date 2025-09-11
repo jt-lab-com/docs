@@ -318,6 +318,6 @@ Initialize `StandardReportLayout` to display strategy results.
 
 ## Next Steps
 
-- **[Trading Scripts](/jt-lib/trading-scripts)** - In-depth study of BaseScript
-- **[Exchange Orders Basket](/jt-lib/exchange-orders-basket)** - Detailed study of OrdersBasket
-- **[Event System](/jt-lib/events-system)** - EventEmitter for reactive strategies
+- **[Trading Scripts](/docs/jt-lib/trading-scripts)** - In-depth study of BaseScript
+- **[Exchange Orders Basket](/docs/jt-lib/exchange-orders-basket)** - Detailed study of OrdersBasket
+- **[Event System](/docs/jt-lib/events-system)** - EventEmitter for reactive strategies

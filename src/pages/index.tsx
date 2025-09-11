@@ -20,12 +20,12 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/intro">
+            to="/docs/intro">
             Start Learning - 5min ⏱️
           </Link>
           <Link
             className="button button--outline button--secondary button--lg"
-            to="/quick-start">
+            to="/docs/quick-start">
             Quick Start 🚀
           </Link>
         </div>
@@ -54,7 +54,7 @@ function QuickLinks() {
               </div>
               <div className="card__body">
                 <p>Install and configure JT-Lib in 5 minutes</p>
-                <Link className="button button--primary" to="/quick-start">
+                <Link className="button button--primary" to="/docs/quick-start">
                   Start Now
                 </Link>
               </div>
@@ -67,7 +67,7 @@ function QuickLinks() {
               </div>
               <div className="card__body">
                 <p>Ready-made trading strategy and indicator examples</p>
-                <Link className="button button--primary" to="/examples-guide">
+                <Link className="button button--primary" to="/docs/examples-guide">
                   View Examples
                 </Link>
               </div>
@@ -83,7 +83,7 @@ function QuickLinks() {
               <div className="card__body">
                 <p>Trading libraries and API</p>
                 <div className="button-group">
-                  <Link className="button button--secondary" to="/jt-lib/core-fundamentals">
+                  <Link className="button button--secondary" to="/docs/jt-lib/core-fundamentals">
                     Documentation
                   </Link>
                   <Link className="button button--outline button--secondary" href="https://github.com/jt-lab-com/jt-lib" target="_blank">
@@ -101,7 +101,7 @@ function QuickLinks() {
               <div className="card__body">
                 <p>Trading platform and interface</p>
                 <div className="button-group">
-                  <Link className="button button--secondary" to="/jt-trader/getting-started">
+                  <Link className="button button--secondary" to="/docs/jt-trader/010-getting-started">
                     Documentation
                   </Link>
                   <Link className="button button--outline button--secondary" href="https://github.com/jt-lab-com/jt-trader" target="_blank">

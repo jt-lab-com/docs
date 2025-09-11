@@ -80,7 +80,7 @@ After studying the source code, JT-LIB has the following architecture:
 
 JT-LIB is part of the JT-Trader platform and is installed together with it. To work with the library, you need to install JT-Trader.
 
-> 📖 **Installation Guide**: [JT-Trader Installation](/docs/installation)
+> 📖 **Installation Guide**: [JT-Trader Installation](/installation)
 
 ## Library Structure
 

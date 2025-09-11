@@ -87,10 +87,10 @@ JT-Trader provides a unified web application with an intuitive interface accessi
 JT-Trader can be installed in several ways depending on your needs:
 
 ### 🚀 Launcher - for users
-- [Installation via Launcher](installation#1-installation-via-launcher) - automatic installation and configuration
+- [Installation via Launcher](/installation#1-installation-via-launcher) - automatic installation and configuration
 
 ### 🐳 Docker - for server deployments  
-- [Installation via Docker](installation#2-installation-via-docker) - Docker installation instructions
+- [Installation via Docker](/installation#2-installation-via-docker) - Docker installation instructions
 
 ### 📦 GitHub - for developers
 
@@ -189,12 +189,12 @@ yarn start:prod
 
 ## Quick Start
 
-- [Quick Start](getting-started) - step-by-step guide to getting started with JT-Trader
+- [Quick Start](/jt-trader/getting-started) - step-by-step guide to getting started with JT-Trader
 
 ## Strategy Management
 
-- [Creating and Launching Strategies](runtime-overview) - detailed instructions for creating and launching trading bots
-- [Required Parameters](runtime-overview#required-parameters) - runtime configuration setup
+- [Creating and Launching Strategies](/jt-trader/runtime-overview) - detailed instructions for creating and launching trading bots
+- [Required Parameters](/jt-trader/runtime-overview#required-parameters) - runtime configuration setup
 
 ## Reporting System
 
@@ -233,12 +233,12 @@ Built-in risk management system allows:
 
 ## Documentation
 
-- [Introduction](getting-started) - Platform overview
-- [Runtime](runtime-overview) - Trading bot management
-- [Tester](tester-overview) - Strategy testing
-- [Strategy Files](strategy-files-overview) - Strategy management
-- [Configuration](configuration) - System setup
-- [Global Functions](global-native-functions) - API functions
+- [Introduction](/jt-trader/getting-started) - Platform overview
+- [Runtime](/jt-trader/runtime-overview) - Trading bot management
+- [Tester](/jt-trader/tester-overview) - Strategy testing
+- [Strategy Files](/jt-trader/strategy-files-overview) - Strategy management
+- [Configuration](/jt-trader/configuration) - System setup
+- [Global Functions](/jt-trader/global-native-functions) - API functions
 
 ## Support
 

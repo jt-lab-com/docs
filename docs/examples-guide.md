@@ -17,9 +17,9 @@ Examples of using the jt-lib library with descriptions of functionality and used
 **Description:** Scans USDT-swap markets and finds symbols with strong daily movements (>30%).
 
 **Used Classes:**
-- [BaseScript](jt-lib/trading-scripts.md) - base class for trading scripts
-- [StandardReportLayout](jt-lib/reporting-system.md) - reporting system
-- [BaseError](jt-lib/core-fundamentals.md) - error handling
+- [BaseScript](/jt-lib/trading-scripts) - base class for trading scripts
+- [StandardReportLayout](/jt-lib/reporting-system) - reporting system
+- [BaseError](/jt-lib/core-fundamentals) - error handling
 
 **Functionality:**
 - Historical candle data analysis
@@ -33,9 +33,9 @@ Examples of using the jt-lib library with descriptions of functionality and used
 **Description:** Multi-currency grid strategy with automatic position management.
 
 **Used Classes:**
-- [BaseScript](jt-lib/trading-scripts.md) - base class for trading scripts
-- [OrdersBasket](jt-lib/exchange-orders-basket.md) - order and position management
-- [StandardReportLayout](jt-lib/reporting-system.md) - reporting system
+- [BaseScript](/jt-lib/trading-scripts) - base class for trading scripts
+- [OrdersBasket](/jt-lib/exchange-orders-basket) - order and position management
+- [StandardReportLayout](/jt-lib/reporting-system) - reporting system
 
 **Functionality:**
 - Creating grid of limit orders
@@ -49,11 +49,11 @@ Examples of using the jt-lib library with descriptions of functionality and used
 **Description:** Demonstration of working with technical indicators (SMA, ATR).
 
 **Used Classes:**
-- [BaseScript](jt-lib/trading-scripts.md) - base class for trading scripts
-- [SimpleMovingAverageIndicator](jt-lib/technical-indicators.md) - SMA indicator
-- [AverageTrueRange](jt-lib/technical-indicators.md) - ATR indicator
-- [CandlesBuffer](jt-lib/market-data-candles.md) - candles buffer
-- [StandardReportLayout](jt-lib/reporting-system.md) - reporting system
+- [BaseScript](/jt-lib/trading-scripts) - base class for trading scripts
+- [SimpleMovingAverageIndicator](/jt-lib/technical-indicators) - SMA indicator
+- [AverageTrueRange](/jt-lib/technical-indicators) - ATR indicator
+- [CandlesBuffer](/jt-lib/market-data-candles) - candles buffer
+- [StandardReportLayout](/jt-lib/reporting-system) - reporting system
 
 **Functionality:**
 - Creating and initializing indicators
@@ -67,10 +67,10 @@ Examples of using the jt-lib library with descriptions of functionality and used
 **Description:** Trading strategy based on RSI indicator with automatic signals.
 
 **Used Classes:**
-- [BaseScript](jt-lib/trading-scripts.md) - base class for trading scripts
-- [OrdersBasket](jt-lib/exchange-orders-basket.md) - order and position management
-- [RelativeStrengthIndex](jt-lib/technical-indicators.md) - RSI indicator
-- [StandardReportLayout](jt-lib/reporting-system.md) - reporting system
+- [BaseScript](/jt-lib/trading-scripts) - base class for trading scripts
+- [OrdersBasket](/jt-lib/exchange-orders-basket) - order and position management
+- [RelativeStrengthIndex](/jt-lib/technical-indicators) - RSI indicator
+- [StandardReportLayout](/jt-lib/reporting-system) - reporting system
 
 **Functionality:**
 - RSI signal analysis (buy when RSI < 30, sell when RSI > 70)
@@ -84,9 +84,9 @@ Examples of using the jt-lib library with descriptions of functionality and used
 **Description:** Trading API demonstration with callback functions and action buttons.
 
 **Used Classes:**
-- [BaseScript](jt-lib/trading-scripts.md) - base class for trading scripts
-- [OrdersBasket](jt-lib/exchange-orders-basket.md) - order and position management
-- [StandardReportLayout](jt-lib/reporting-system.md) - reporting system
+- [BaseScript](/jt-lib/trading-scripts) - base class for trading scripts
+- [OrdersBasket](/jt-lib/exchange-orders-basket) - order and position management
+- [StandardReportLayout](/jt-lib/reporting-system) - reporting system
 
 **Functionality:**
 - Interactive buttons for trading operations
@@ -99,5 +99,5 @@ Examples of using the jt-lib library with descriptions of functionality and used
 - **🌐 [Official JT-Lab Website](https://jt-lab.com)** - Main platform page
 - **📦 [JT-Trader on GitHub](https://github.com/jt-lab-com/jt-trader)** - Trading platform source code
 - **📚 [JT-Lib on GitHub](https://github.com/jt-lab-com/jt-lib)** - Development library source code
-- **📖 [Complete Documentation](/docs/intro)** - Detailed guides for all components
-- **🚀 [Quick Start](/docs/quick-start)** - Get started in 5 minutes
+- **📖 [Complete Documentation](/intro)** - Detailed guides for all components
+- **🚀 [Quick Start](/quick-start)** - Get started in 5 minutes

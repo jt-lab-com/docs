@@ -281,10 +281,10 @@ netstat -tulpn | grep :8080
 
 After successful installation:
 
-1. **[JT-Trader Configuration](/docs/jt-trader/configuration)** - Platform setup
-2. **[Usage](/docs/jt-trader/usage)** - Interface learning
-3. **[Creating Strategies](/docs/jt-lib/trading-scripts)** - Trading robot development
-4. **[Testing](/docs/jt-trader/tester)** - Strategy testing
+1. **[JT-Trader Configuration](/jt-trader/configuration)** - Platform setup
+2. **[Getting Started](/jt-trader/getting-started)** - Interface learning
+3. **[Creating Strategies](/jt-lib/trading-scripts)** - Trading robot development
+4. **[Tester Overview](/jt-trader/tester-overview)** - Strategy testing
 
 ---
 

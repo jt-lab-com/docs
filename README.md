@@ -69,7 +69,7 @@ The site automatically deploys to GitHub Pages when pushing to the `main` branch
 - Add `width` and `height` attributes for size control
 - Images automatically enlarge on click
 
-## 📦 Dependencies
+## 📦 Dependencies 
 
 - **@docusaurus/core** - Docusaurus core
 - **@docusaurus/preset-classic** - Classic preset

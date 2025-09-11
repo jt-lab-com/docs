@@ -4,7 +4,7 @@ Documentation for JavaScript Trading Libraries, built with [Docusaurus](https://
 
 ## 🚀 Quick Start
 
-**🌐 Online Documentation:** [https://jt-lab-com.github.io/docs/](https://jt-lab-com.github.io/docs/)
+**🌐 Online Documentation:** [https://jt-lab-com.github.io/](https://jt-lab-com.github.io/)
 
 ### Installing Dependencies
 ```bash
@@ -80,9 +80,9 @@ The site automatically deploys to GitHub Pages when pushing to the `main` branch
 ## 🔗 Useful Links
 
 ### Documentation
-- **📖 [Online Documentation](https://jt-lab-com.github.io/docs/)** - Complete JT-Lib and JT-Trader documentation
-- **📚 [JT-Lib Documentation](https://jt-lab-com.github.io/docs/docs/jt-lib/)** - Core library documentation
-- **⚙️ [JT-Trader Documentation](https://jt-lab-com.github.io/docs/docs/jt-trader/)** - Trading platform documentation
+- **📖 [Online Documentation](https://jt-lab-com.github.io/)** - Complete JT-Lib and JT-Trader documentation
+- **📚 [JT-Lib Documentation](https://jt-lab-com.github.io/jt-lib/)** - Core library documentation
+- **⚙️ [JT-Trader Documentation](https://jt-lab-com.github.io/jt-trader/)** - Trading platform documentation
 
 ### JT-Lab Resources
 - **🌐 [Official JT-Lab Website](https://jt-lab.com)** - Platform homepage

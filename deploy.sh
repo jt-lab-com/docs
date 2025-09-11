@@ -43,6 +43,6 @@ echo "🚀 Pushing changes to GitHub..."
 git push origin main
 
 echo "✅ Deployment completed! GitHub Actions will automatically deploy the site."
-echo "🌐 Site will be available at: https://jt-lab-com.github.io/docs/"
+echo "🌐 Site will be available at: https://jt-lab-com.github.io/"
 echo ""
 echo "📊 Check deployment status in the Actions section on GitHub."

@@ -1,6 +1,6 @@
 # JT-Trader
 
-[![License](https://img.shields.io/badge/license-AGPLv3-blue.svg)](LICENSE)
+[![License](https://img.shields.io/badge/license-AGPLv3-blue.svg)](LICENSE.md)
 [![TypeScript](https://img.shields.io/badge/TypeScript-4.0+-blue.svg)](https://www.typescriptlang.org/)
 [![Node.js](https://img.shields.io/badge/Node.js-16+-green.svg)](https://nodejs.org/)
 [![CCXT](https://img.shields.io/badge/CCXT-4.0+-orange.svg)](https://github.com/ccxt/ccxt)
@@ -25,7 +25,7 @@
 
 JT-LAB has a dual license:
 
-- 🟢 **Free** for personal, educational, and open-source use under [AGPLv3](LICENSE) license.
+- 🟢 **Free** for personal, educational, and open-source use under [AGPLv3](LICENSE.md) license.
 - 🔒 **Commercial use** requires a [paid license](mailto:am@jt-lab.com).
 
 Professional trading platform for creating, testing, and launching algorithmic trading strategies. Combines a powerful engine for executing trading algorithms, comprehensive strategy testing system, and intuitive web interface for managing trading operations.
@@ -87,10 +87,10 @@ JT-Trader provides a unified web application with an intuitive interface accessi
 JT-Trader can be installed in several ways depending on your needs:
 
 ### 🚀 Launcher - for users
-- [Installation via Launcher](installation#1-installation-via-launcher) - automatic installation and configuration
+- [Installation via Launcher](/installation#1-installation-via-launcher) - automatic installation and configuration
 
 ### 🐳 Docker - for server deployments  
-- [Installation via Docker](installation#2-installation-via-docker) - Docker installation instructions
+- [Installation via Docker](/installation#2-installation-via-docker) - Docker installation instructions
 
 ### 📦 GitHub - for developers
 

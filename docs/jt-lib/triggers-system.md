@@ -400,6 +400,6 @@ class Script extends BaseScript {
 
 ## Next Steps
 
-- **[Event System](/jt-lib/events-system)** - EventEmitter for event management
-- **[Trading Scripts](/jt-lib/trading-scripts)** - Base class for trading scripts
-- **[Exchange Operations](/jt-lib/exchange-orders-basket)** - OrdersBasket for trading operations
+- **[Event System](/docs/jt-lib/events-system)** - EventEmitter for event management
+- **[Trading Scripts](/docs/jt-lib/trading-scripts)** - Base class for trading scripts
+- **[Exchange Operations](/docs/jt-lib/exchange-orders-basket)** - OrdersBasket for trading operations

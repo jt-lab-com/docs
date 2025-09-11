@@ -22,7 +22,7 @@ const config: Config = {
   url: 'https://jt-lab-com.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/docs/',
   
 
   // GitHub pages deployment config.
@@ -96,7 +96,7 @@ const config: Config = {
           items: [
             {
             label: 'System Installation',
-              to: '/installation/',
+              to: '/docs/installation/',
             },
             
             {

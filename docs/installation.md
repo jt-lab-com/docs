@@ -23,7 +23,7 @@ Complete guide for installing and configuring the JT-Trader platform for algorit
 
 JT-LAB has a dual license:
 
-- 🟢 **Free** for personal, educational, and open-source use under [AGPLv3](LICENSE.md) license.
+- 🟢 **Free** for personal, educational, and open-source use under [AGPLv3](LICENSE) license.
 - 🔒 **Commercial use** requires a [paid license](mailto:am@jt-lab.com).
 
 

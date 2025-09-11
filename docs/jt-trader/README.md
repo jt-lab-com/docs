@@ -1,6 +1,6 @@
 # JT-Trader
 
-[![License](https://img.shields.io/badge/license-AGPLv3-blue.svg)](LICENSE.md)
+[![License](https://img.shields.io/badge/license-AGPLv3-blue.svg)](LICENSE)
 [![TypeScript](https://img.shields.io/badge/TypeScript-4.0+-blue.svg)](https://www.typescriptlang.org/)
 [![Node.js](https://img.shields.io/badge/Node.js-16+-green.svg)](https://nodejs.org/)
 [![CCXT](https://img.shields.io/badge/CCXT-4.0+-orange.svg)](https://github.com/ccxt/ccxt)
@@ -25,7 +25,7 @@
 
 JT-LAB has a dual license:
 
-- 🟢 **Free** for personal, educational, and open-source use under [AGPLv3](LICENSE.md) license.
+- 🟢 **Free** for personal, educational, and open-source use under [AGPLv3](LICENSE) license.
 - 🔒 **Commercial use** requires a [paid license](mailto:am@jt-lab.com).
 
 Professional trading platform for creating, testing, and launching algorithmic trading strategies. Combines a powerful engine for executing trading algorithms, comprehensive strategy testing system, and intuitive web interface for managing trading operations.
@@ -189,12 +189,12 @@ yarn start:prod
 
 ## Quick Start
 
-- [Quick Start](getting-started) - step-by-step guide to getting started with JT-Trader
+- [Quick Start](/jt-trader/getting-started) - step-by-step guide to getting started with JT-Trader
 
 ## Strategy Management
 
-- [Creating and Launching Strategies](runtime-overview) - detailed instructions for creating and launching trading bots
-- [Required Parameters](runtime-overview#required-parameters) - runtime configuration setup
+- [Creating and Launching Strategies](/jt-trader/runtime-overview) - detailed instructions for creating and launching trading bots
+- [Required Parameters](/jt-trader/runtime-overview#required-parameters) - runtime configuration setup
 
 ## Reporting System
 
@@ -233,12 +233,12 @@ Built-in risk management system allows:
 
 ## Documentation
 
-- [Introduction](getting-started) - Platform overview
-- [Runtime](runtime-overview) - Trading bot management
-- [Tester](tester-overview) - Strategy testing
-- [Strategy Files](strategy-files-overview) - Strategy management
-- [Configuration](configuration) - System setup
-- [Global Functions](global-native-functions) - API functions
+- [Introduction](/jt-trader/getting-started) - Platform overview
+- [Runtime](/jt-trader/runtime-overview) - Trading bot management
+- [Tester](/jt-trader/tester-overview) - Strategy testing
+- [Strategy Files](/jt-trader/strategy-files-overview) - Strategy management
+- [Configuration](/jt-trader/configuration) - System setup
+- [Global Functions](/jt-trader/global-native-functions) - API functions
 
 ## Support
 

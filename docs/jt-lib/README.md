@@ -1,6 +1,6 @@
 # JT-LIB
 
-[![License](https://img.shields.io/badge/license-AGPLv3-blue.svg)](LICENSE.md)
+[![License](https://img.shields.io/badge/license-AGPLv3-blue.svg)](LICENSE)
 [![TypeScript](https://img.shields.io/badge/TypeScript-4.0+-blue.svg)](https://www.typescriptlang.org/)
 [![Node.js](https://img.shields.io/badge/Node.js-16+-green.svg)](https://nodejs.org/)
 
@@ -200,14 +200,14 @@ jt-lib-source/
 
 ## Documentation
 
-- [Introduction and Architecture](introduction-architecture) - Library overview
-- [Core Fundamentals](core-fundamentals) - Basic components
-- [Trading Scripts](trading-scripts) - Creating strategies
-- [Technical Indicators](technical-indicators) - Market analysis
-- [Event System](events-system) - EventEmitter and triggers
-- [Order Management](exchange-orders-basket) - OrdersBasket
-- [Reporting](reporting-system) - Creating reports
-- [Error Handling](error-handling) - Error management
+- [Introduction and Architecture](/jt-lib/introduction-architecture) - Library overview
+- [Core Fundamentals](/jt-lib/core-fundamentals) - Basic components
+- [Trading Scripts](/jt-lib/trading-scripts) - Creating strategies
+- [Technical Indicators](/jt-lib/technical-indicators) - Market analysis
+- [Event System](/jt-lib/events-system) - EventEmitter and triggers
+- [Order Management](/jt-lib/exchange-orders-basket) - OrdersBasket
+- [Reporting](/jt-lib/reporting-system) - Creating reports
+- [Error Handling](/jt-lib/error-handling) - Error management
 
 ## Support
 

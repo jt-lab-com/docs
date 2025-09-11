@@ -4,7 +4,7 @@ Documentation for JavaScript Trading Libraries, built with [Docusaurus](https://
 
 ## 🚀 Quick Start
 
-**🌐 Online Documentation:** [https://jt-lab-com.github.io/docs/](https://jt-lab-com.github.io/docs/)
+**🌐 Online Documentation:** [https://docs.jt-lab-com/](https://docs.jt-lab-com/)
 
 ### Installing Dependencies
 ```bash

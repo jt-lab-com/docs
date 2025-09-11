@@ -99,5 +99,5 @@ Examples of using the jt-lib library with descriptions of functionality and used
 - **🌐 [Official JT-Lab Website](https://jt-lab.com)** - Main platform page
 - **📦 [JT-Trader on GitHub](https://github.com/jt-lab-com/jt-trader)** - Trading platform source code
 - **📚 [JT-Lib on GitHub](https://github.com/jt-lab-com/jt-lib)** - Development library source code
-- **📖 [Complete Documentation](/docs/intro)** - Detailed guides for all components
-- **🚀 [Quick Start](/docs/quick-start)** - Get started in 5 minutes
+- **📖 [Complete Documentation](/intro)** - Detailed guides for all components
+- **🚀 [Quick Start](/quick-start)** - Get started in 5 minutes

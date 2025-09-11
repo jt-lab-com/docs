@@ -21,7 +21,7 @@ This repository is configured for automatic deployment of documentation to GitHu
 ```typescript
 const config: Config = {
   url: 'https://jt-lab-com.github.io',     // GitHub Pages URL
-  baseUrl: '/docs/',                       // Repository path
+  baseUrl: '/',                            // Repository path
   organizationName: 'jt-lab-com',          // Organization name
   projectName: 'docs',                     // Repository name
   // ... other settings
@@ -61,7 +61,7 @@ npm run serve
 ### 🌐 Result
 
 After successful deployment, your documentation will be available at:
-`https://jt-lab-com.github.io/docs/`
+`https://jt-lab-com.github.io/`
 
 ### 🐛 Troubleshooting
 

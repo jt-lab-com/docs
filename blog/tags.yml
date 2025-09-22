@@ -1,0 +1,39 @@
+jt-trader:
+  label: JT-Trader
+  permalink: /jt-trader
+  description: JT-Trader trading platform
+
+crypto-bots:
+  label: Crypto Bots
+  permalink: /crypto-bots
+  description: Trading bots for cryptocurrencies
+
+trading:
+  label: Trading
+  permalink: /trading
+  description: Algorithmic trading
+
+automation:
+  label: Automation
+  permalink: /automation
+  description: Trading process automation
+
+blockchain:
+  label: Blockchain
+  permalink: /blockchain
+  description: Blockchain and cryptocurrency technologies
+
+tutorial:
+  label: Tutorial
+  permalink: /tutorial
+  description: Step-by-step guides and tutorials
+
+jt-lib:
+  label: JT-Lib
+  permalink: /jt-lib
+  description: Library for developing trading strategies
+
+detailed-guide:
+  label: Detailed Guide
+  permalink: /detailed-guide
+  description: Detailed guides and instructions

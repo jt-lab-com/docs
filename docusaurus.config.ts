@@ -58,6 +58,24 @@ const config: Config = {
           //   require('remark-gfm'),
           // ],
         },
+        blog: {
+          showReadingTime: true,
+          // Please change this to your repo.
+          editUrl:
+            'https://github.com/jt-lab-com/docs/tree/main/blog/',
+          blogTitle: 'JT-Lab Blog',
+          blogDescription: 'Articles about algorithmic trading, strategy development, and JT-Lab ecosystem',
+          blogSidebarTitle: 'Recent posts',
+          blogSidebarCount: 'ALL',
+          postsPerPage: 10,
+          feedOptions: {
+            type: 'all',
+            title: 'JT-Lab Blog',
+            description: 'Articles about algorithmic trading, strategy development, and JT-Lab ecosystem',
+            copyright: `Copyright © ${new Date().getFullYear()} JT-Lab.`,
+            language: 'en',
+          },
+        },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -80,6 +98,11 @@ const config: Config = {
           sidebarId: 'tutorialSidebar',
           position: 'left',
           label: 'Documentation',
+        },
+        {
+          to: '/blog',
+          label: 'Blog',
+          position: 'left',
         },
         {
           href: 'https://github.com/jt-lab-com/jt-trader',
@@ -133,6 +156,10 @@ const config: Config = {
         {
           title: 'Community',
           items: [
+            {
+              label: 'Blog',
+              to: '/blog',
+            },
             {
               label: 'GitHub Docs',
               href: 'https://github.com/jt-lab-com/docs',
